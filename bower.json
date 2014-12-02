@@ -1,0 +1,22 @@
+{
+  "name": "clock-angle",
+  "main": "clock-angle.js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/miguelmota/clock-angle",
+  "authors": [
+    "Miguel Mota <miguelmota2@gmail.com>"
+  ],
+  "description": "Find angle between hour and minute hands",
+  "keywords": [
+    "clock",
+    "angle"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "license": "MIT"
+}

@@ -1,0 +1,29 @@
+{
+  "name": "clock-angle",
+  "version": "0.0.1",
+  "description": "Find angle between hour and minute hands",
+  "main": "clock-angle.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/miguelmota/clock-angle"
+  },
+  "keywords": [
+    "clock",
+    "angle"
+  ],
+  "author": "Miguel Mota <hello@miguelmota.com> (http://www.miguelmota.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/miguelmota/clock-angle/issues"
+  },
+  "homepage": "https://github.com/miguelmota/clock-angle",
+  "dependencies": {
+    "tape": "^3.0.3"
+  }
+}
