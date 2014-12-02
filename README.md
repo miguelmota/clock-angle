@@ -11,7 +11,7 @@ npm install clock-angle
 # Usage
 
 ```javascript
-var clock-angle = require('clock-angle');
+var clockAngle = require('clock-angle');
 
 // 12 o'clock to hour hand
 clockAngle(3) // 90
