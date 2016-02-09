@@ -25,5 +25,8 @@
   "homepage": "https://github.com/miguelmota/clock-angle",
   "dependencies": {
     "tape": "^3.0.3"
+  },
+  "devDependencies": {
+    "tape": "^3.5.0"
   }
 }

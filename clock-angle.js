@@ -1,17 +1,32 @@
 (function(){
 
   function angleBtwnMinuteAnd12oclock(m) {
-    return 360 * m / 60;
+    m = m || 0;
+    m = m % 60;
+
+    return m * 6;
   }
 
   function angleBtwnHourAnd12oclock(h, m) {
     m = m || 0;
-    return 360 * (h % 12) / 12 + 360 * (m / 60) * (1 / 12);
+    h = h || 0;
+
+    m = m % 60;
+    h = h % 12;
+
+    return (h + (m / 60)) * 30;
   }
 
   function angleBtwnHourAndMinute(h, m) {
-    var r = (angleBtwnHourAnd12oclock(h) - angleBtwnMinuteAnd12oclock(m)) % 360;
-    return Math.abs(r);
+    if(h == null) return angleBtwnMinuteAnd12oclock(m) % 360;
+
+    return smallestAngle(angleBtwnHourAnd12oclock(h, m) - angleBtwnMinuteAnd12oclock(m));
+  }
+
+  function smallestAngle(d) {
+    d = Math.abs(d) % 360;
+
+    return (d < 180) ? d : 360 - d;
   }
 
   var clockAngle = function(h, m) {

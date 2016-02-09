@@ -1,6 +1,6 @@
 # clock-angle
 
-Find angle between hour and minute hands
+Find smallest angle between hour and minute hands on the face of a standard 12-hr clock, in degrees
 
 # Install
 
@@ -22,9 +22,11 @@ clockAngle(null, 15) // 90
 clockAngle(null, 30) // 180
 
 // hour hand to minute hand
-clockAngle(0,15) // 90
-clockAngle(12,15) // 90
-clockAngle(9,15) // 180
+clockAngle(3, 0) // 90
+clockAngle(0, 15) // 82.5
+clockAngle(12, 15) // 82.5
+clockAngle(9, 15) // 172.5
+clockAngle(11, 59) // 5.5
 ```
 
 # License
