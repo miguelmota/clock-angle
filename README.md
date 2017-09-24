@@ -2,6 +2,10 @@
 
 Find angle between hour and minute hands
 
+# Demo
+
+[https://lab.miguelmota.com/clock-angle](https://lab.miguelmota.com/clock-angle)
+
 # Install
 
 ```bash
@@ -25,6 +29,12 @@ clockAngle(null, 30) // 180
 clockAngle(0,15) // 90
 clockAngle(12,15) // 90
 clockAngle(9,15) // 180
+```
+
+# Test
+
+```bash
+npm test
 ```
 
 # License
