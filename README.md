@@ -1,6 +1,6 @@
 # clock-angle
 
-Find smallest angle between hour and minute hands on the face of a standard 12-hr clock, in degrees
+> Find smallest angle between hour and minute hands on the face of a standard 12-hr clock, in degrees.
 
 # Demo
 

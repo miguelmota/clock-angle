@@ -1,7 +1,7 @@
 {
   "name": "clock-angle",
   "version": "0.0.1",
-  "description": "Find angle between hour and minute hands",
+  "description": "Find smallest angle between hour and minute hands on the face of a standard 12-hr clock, in degrees.",
   "main": "clock-angle.js",
   "directories": {
     "test": "test"
@@ -17,7 +17,11 @@
     "clock",
     "angle"
   ],
-  "author": "Miguel Mota <hello@miguelmota.com> (http://www.miguelmota.com/)",
+  "author": {
+    "name": "Miguel Mota",
+    "email": "hello@miguelmota.com",
+    "url": "https://miguelmota.com/"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/miguelmota/clock-angle/issues"
