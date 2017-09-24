@@ -6,6 +6,8 @@
 
 [https://lab.miguelmota.com/clock-angle](https://lab.miguelmota.com/clock-angle)
 
+<img src="./screenshot.png" width="300" />
+
 # Install
 
 ```bash
@@ -15,7 +17,7 @@ npm install clock-angle
 # Usage
 
 ```javascript
-var clockAngle = require('clock-angle');
+var clockAngle = require('clock-angle')
 
 // 12 o'clock to hour hand
 clockAngle(3) // 90

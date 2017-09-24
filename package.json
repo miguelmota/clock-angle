@@ -1,6 +1,6 @@
 {
   "name": "clock-angle",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Find smallest angle between hour and minute hands on the face of a standard 12-hr clock, in degrees.",
   "main": "clock-angle.js",
   "directories": {
